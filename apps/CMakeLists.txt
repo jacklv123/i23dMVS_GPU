@@ -1,0 +1,7 @@
+# Add applications
+ADD_SUBDIRECTORY(InterfaceI23dSFM)
+ADD_SUBDIRECTORY(DensifyPointCloud)
+ADD_SUBDIRECTORY(ReconstructMesh)
+ADD_SUBDIRECTORY(RefineMesh)
+ADD_SUBDIRECTORY(TextureMesh)
+ADD_SUBDIRECTORY(TextureMeshViwo)

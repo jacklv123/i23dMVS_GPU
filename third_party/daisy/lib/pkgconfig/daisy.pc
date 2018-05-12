@@ -1,0 +1,19 @@
+# Package Information for pkg-config
+# Author= Engin Tola
+# Created= 2016年 04月 15日 星期五 17:29:47 CST
+# Licence= see license.txt
+
+prefix=/home/yanbg/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: daisy
+Description: daisy descriptor
+Version: 1.8.1
+Libs: -L${libdir} -ldaisy
+Cflags: -I${includedir}
+Requires:
+Path=/home/yanbg/Project/daisy-1.8.1
+tagfile=${Path}/TAGS
+
